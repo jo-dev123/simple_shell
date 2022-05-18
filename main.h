@@ -1,5 +1,5 @@
-#ifndef  _MAIN_H_
-#define  _MAIN_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdio.h>
 #include <unistd.h>
@@ -26,8 +26,8 @@ extern char **environ;
  * @input: command line written by the user
  * @args: tokens of the command line
  * @status: last status of the shell
- * @counter: lines counter 
-* @_environ: environment variable
+ * @counter: lines counter
+ * @_environ: environment variable
  * @pid: process ID of the shell
  */
 typedef struct data
