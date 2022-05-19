@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "Test README" >> test.md
-git add .
-git commit -m "update to README.md"
-git push
