@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "space" > t.md
+echo "space" >> t.md
 git add .
 git commit -m "adding to t"
 git push
